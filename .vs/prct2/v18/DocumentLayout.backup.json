@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\download\\scooters_rental\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\services\\scooterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\services\\scooterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93654BBB-B736-44B8-9215-D8A9EC581651}|prct2.Test\\prct2.Test.csproj|d:\\download\\scooters_rental\\prct2.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93654BBB-B736-44B8-9215-D8A9EC581651}|prct2.Test\\prct2.Test.csproj|solutionrelative:prct2.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93654BBB-B736-44B8-9215-D8A9EC581651}|prct2.Test\\prct2.Test.csproj|d:\\download\\scooters_rental\\prct2.test\\prct2.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{93654BBB-B736-44B8-9215-D8A9EC581651}|prct2.Test\\prct2.Test.csproj|solutionrelative:prct2.test\\prct2.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\services\\iscooterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\services\\iscooterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\models\\parkingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\models\\parkingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\models\\trips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\models\\trips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\models\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\models\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\models\\scooters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\models\\scooters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|d:\\download\\scooters_rental\\prct2\\prct2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{00D71B71-AFBC-4C86-A462-9543A0D8A509}|prct2\\prct2.csproj|solutionrelative:prct2\\prct2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Trips.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Models\\Trips.cs",
+              "RelativeDocumentMoniker": "prct2\\Models\\Trips.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Models\\Trips.cs",
+              "RelativeToolTip": "prct2\\Models\\Trips.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "prct2\\Models\\Users.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Models\\Users.cs",
+              "RelativeToolTip": "prct2\\Models\\Users.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IScooterService.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Services\\IScooterService.cs",
+              "RelativeDocumentMoniker": "prct2\\Services\\IScooterService.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Services\\IScooterService.cs",
+              "RelativeToolTip": "prct2\\Services\\IScooterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "prct2\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\View\\MainWindow.xaml",
+              "RelativeToolTip": "prct2\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T18:45:29.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "prct2\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "prct2\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAALEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2.Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "prct2.Test\\UnitTest1.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2.Test\\UnitTest1.cs",
+              "RelativeToolTip": "prct2.Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T21:08:52.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "prct2\\View\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "prct2\\View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "prct2\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "prct2\\Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAHkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScooterService.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Services\\ScooterService.cs",
+              "RelativeDocumentMoniker": "prct2\\Services\\ScooterService.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Services\\ScooterService.cs",
+              "RelativeToolTip": "prct2\\Services\\ScooterService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowKcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T20:13:52.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAmwAcBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-05-20T21:05:25.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "prct2.Test.csproj",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2.Test\\prct2.Test.csproj",
+              "RelativeDocumentMoniker": "prct2.Test\\prct2.Test.csproj",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2.Test\\prct2.Test.csproj",
+              "RelativeToolTip": "prct2.Test\\prct2.Test.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwCEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T21:09:41.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ParkingZone.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Models\\ParkingZone.cs",
+              "RelativeDocumentMoniker": "prct2\\Models\\ParkingZone.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Models\\ParkingZone.cs",
+              "RelativeToolTip": "prct2\\Models\\ParkingZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tariff.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Models\\Tariff.cs",
+              "RelativeDocumentMoniker": "prct2\\Models\\Tariff.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Models\\Tariff.cs",
+              "RelativeToolTip": "prct2\\Models\\Tariff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Scooters.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Models\\Scooters.cs",
+              "RelativeDocumentMoniker": "prct2\\Models\\Scooters.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Models\\Scooters.cs",
+              "RelativeToolTip": "prct2\\Models\\Scooters.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Models\\Payments.cs",
+              "RelativeDocumentMoniker": "prct2\\Models\\Payments.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Models\\Payments.cs",
+              "RelativeToolTip": "prct2\\Models\\Payments.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "prct2\\Commands\\RelayCommand.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "prct2\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\App.xaml",
+              "RelativeDocumentMoniker": "prct2\\App.xaml",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\App.xaml",
+              "RelativeToolTip": "prct2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-20T18:45:29.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "prct2\\AssemblyInfo.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\AssemblyInfo.cs",
+              "RelativeToolTip": "prct2\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T19:46:16.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCYAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T19:51:38.435Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-05-20T18:45:29.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "prct2\\App.xaml.cs",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\App.xaml.cs",
+              "RelativeToolTip": "prct2\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:45:29.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "prct2",
+              "DocumentMoniker": "D:\\download\\scooters_rental\\prct2\\prct2.csproj",
+              "RelativeDocumentMoniker": "prct2\\prct2.csproj",
+              "ToolTip": "D:\\download\\scooters_rental\\prct2\\prct2.csproj",
+              "RelativeToolTip": "prct2\\prct2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T18:45:29.868Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

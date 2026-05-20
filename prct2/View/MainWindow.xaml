@@ -1,0 +1,161 @@
+﻿<Window x:Class="prct2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:prct2.ViewModels"
+        xmlns:cmd="clr-namespace:prct2.Commands"
+        Title="🛴 Scooter Rental" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"><Window.DataContext>
+    <vm:MainViewModel/>
+</Window.DataContext>
+
+<Window.Resources>
+    <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+        <!-- Стили для кнопок -->
+    <Style x:Key="PrimaryButton" TargetType="Button">
+        <Setter Property="Background" Value="#4CAF50"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Padding" Value="15,8"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background" Value="#CCCCCC"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="DangerButton" TargetType="Button">
+        <Setter Property="Background" Value="#f44336"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Padding" Value="15,8"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+</Window.Resources>
+
+<Grid Margin="10">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="300"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="300"/>
+    </Grid.ColumnDefinitions>
+
+    <!-- Левая панель: Список самокатов -->
+    <GroupBox Grid.Column="0" Header="🛴 Доступные самокаты" Margin="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <ListBox ItemsSource="{Binding AvailableScooters}" 
+                         SelectedItem="{Binding SelectedScooter}"
+                       
+                         Margin="5">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Location, StringFormat='📍 {0}'}" FontSize="11"/>
+                            <TextBlock>
+                                    <Run Text="🔋 "/>
+                                    <Run Text="{Binding Charge}"/>
+                                    <Run Text="%"/>
+                                    <Run Text="|"/>
+                                    <Run Text="{Binding Status, StringFormat=' {0}'}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Button Grid.Row="1" Content="🔄 Обновить" 
+                        Command="{Binding RefreshCommand}"
+                        Style="{StaticResource PrimaryButton}"
+                        HorizontalAlignment="Stretch" Margin="5"/>
+        </Grid>
+    </GroupBox>
+
+    <!-- Центральная панель: Управление поездкой -->
+    <GroupBox Grid.Column="1" Header="🎮 Управление поездкой" Margin="5">
+        <StackPanel Margin="10">
+            <!-- Карточка выбранного самоката -->
+            <GroupBox Header="Выбранный самокат" Margin="0,0,0,10">
+                <StackPanel>
+                    <TextBlock Text="{Binding SelectedScooter.Name, StringFormat='🛴 {0}'}" 
+                                   FontWeight="Bold" FontSize="14"/>
+                    <TextBlock Text="{Binding SelectedScooter.Location, StringFormat='📍 {0}'}"/>
+                    <TextBlock>
+                            <Run Text="🔋 Заряд: "/>
+                            <Run Text="{Binding SelectedScooter.Charge}"/>
+                            <Run Text="%"/>
+                    </TextBlock>
+                    <TextBlock Text="{Binding SelectedScooter.Status, StringFormat='Статус: {0}'}"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Кнопки действий -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                <Button Content="▶ Начать поездку" 
+                            Command="{Binding StartTripCommand}"
+                            Style="{StaticResource PrimaryButton}"
+                            Width="150"/>
+                <Button Content="⏹ Завершить поездку" 
+                            Command="{Binding EndTripCommand}"
+                            Style="{StaticResource DangerButton}"
+                            Width="170"/>
+            </StackPanel>
+
+            <!-- Активная поездка -->
+            <GroupBox Header="🚀 Активная поездка" Margin="0,10" 
+                          
+                Visibility="{Binding ActiveTrip, Converter={StaticResource BoolToVis}}">
+                <StackPanel>
+                    <TextBlock Text="{Binding ActiveTrip.StartTime, StringFormat='Начало: {0:HH:mm:ss}'}"/>
+                    <TextBlock Text="{Binding ActiveTrip.Tariff.Name, StringFormat='Тариф: {0}'}"/>
+                    <TextBlock Text="💰 Расчёт в реальном времени..."/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Статус -->
+            <TextBlock Text="{Binding StatusMessage}" 
+                           FontWeight="Bold" Foreground="#2196F3"
+                           TextWrapping="Wrap" Margin="0,10,0,0"/>
+        </StackPanel>
+    </GroupBox>
+
+    <!-- Правая панель: История поездок -->
+    <GroupBox Grid.Column="2" Header="📋 История поездок" Margin="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+                <ListView ItemsSource="{Binding TripHistory}" Margin="5">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="40"/>
+                            <GridViewColumn Header="Начало" DisplayMemberBinding="{Binding StartTime, StringFormat={}{0:HH:mm}}" Width="60"/>
+                            <GridViewColumn Header="Конец" DisplayMemberBinding="{Binding EndTime, StringFormat={}{0:HH:mm}}" Width="60"/>
+                            <GridViewColumn Header="Сумма" DisplayMemberBinding="{Binding TotalCost, StringFormat={}{0:C}}" Width="70"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <!-- Управление тарифами (упрощённо) -->
+                <GroupBox Grid.Row="1" Header="💳 Тарифы" Margin="5">
+                    <ItemsControl ItemsSource="{Binding Tariffs}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </GroupBox>
+        </Grid>
+    </GroupBox>
+</Grid>
+    
+</Window>

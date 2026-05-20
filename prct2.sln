@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11723.231 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prct2", "prct2\prct2.csproj", "{00D71B71-AFBC-4C86-A462-9543A0D8A509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prct2.Test", "prct2.Test\prct2.Test.csproj", "{93654BBB-B736-44B8-9215-D8A9EC581651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00D71B71-AFBC-4C86-A462-9543A0D8A509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D71B71-AFBC-4C86-A462-9543A0D8A509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D71B71-AFBC-4C86-A462-9543A0D8A509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D71B71-AFBC-4C86-A462-9543A0D8A509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93654BBB-B736-44B8-9215-D8A9EC581651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93654BBB-B736-44B8-9215-D8A9EC581651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93654BBB-B736-44B8-9215-D8A9EC581651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93654BBB-B736-44B8-9215-D8A9EC581651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49768213-43A4-48A3-98AB-E6F3541D223D}
+	EndGlobalSection
+EndGlobal
